@@ -1,0 +1,4 @@
+export const QR_CODE_SIZE = 270;
+export const QR_CODE_BORDER_RADIUS = 15;
+export const QR_CODE_BORDER_PADDING_FROM_MAIN_CONTAINER = 30;
+export const QR_CODE_BORDER_WIDTH = 4;

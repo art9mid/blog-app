@@ -1,0 +1,43 @@
+{
+	"welcomeScreen": {
+		"title": "Explore Our Expertise!",
+		"description": "Get inspired by innovation and future solutions with",
+		"images": {
+			"1": {
+				"title": "JavaScript Architecture \uD83C\uDFDB\uFE0F"
+			},
+			"2": {
+				"title": "Design\nPatterns \uD83C\uDFA8"
+			},
+			"3": {
+				"title": "Performance Optimization \uD83D\uDE80"
+			},
+			"4": {
+				"title": "User Interface Trends \uD83D\uDCA1"
+			},
+			"5": {
+				"title": "React Ecosystem ⚛\uFE0F"
+			},
+			"6": {
+				"title": "Backend Solutions \uD83D\uDD27"
+			}
+		}
+	},
+	"homeScreen": {
+		"searchInputPlaceholder": "Search the feed...",
+		"noPostsWasFound": "Hmm... Looks like there's only emptiness here for now."
+	},
+	"postDetailsScreen": {
+		"postedAt": "Posted at"
+	},
+	"settingsScreen": {
+		"headerTitle": "Settings",
+		"language": "Language",
+		"privacyPolicy": "Privacy policy",
+		"aboutUs": "About Us",
+		"version": "Version"
+	},
+	"languageScreen": {
+		"headerTitle": "Language"
+	}
+}
