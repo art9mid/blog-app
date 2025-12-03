@@ -6,6 +6,8 @@ import Animated, {
   useSharedValue,
   withTiming,
 } from 'react-native-reanimated';
+import { moderateScale } from 'react-native-size-matters';
+import { Feather } from '@expo/vector-icons';
 
 import { useThemedStyles } from '../../../hooks/useThemedStyles';
 import AppText from '../AppText/AppText';
@@ -40,7 +42,7 @@ const AccordionItem: FC<AccordionItemProps> = ({
     <View style={[styles.container, contentContainerStyles]}>
       <Pressable style={styles.button} onPress={onPress}>
         <AppText style={styles.buttonText}>{label}</AppText>
-        <AppText>Arrow</AppText>
+        <Feather name={'arrow-right'} size={moderateScale(22)} />
       </Pressable>
       <Animated.View style={[styles.animatedView, bodyStyle, style]}>
         <View
